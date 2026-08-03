@@ -12,5 +12,6 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-      - name: Build with Maven
+      - name: Build with Maven (app folder)
+        working-directory: ./app
         run: mvn -B -v -DskipTests package

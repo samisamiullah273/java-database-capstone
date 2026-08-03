@@ -1,5 +1,8 @@
-Doctor: Dr. Alice Smith | Date: 2026-08-03
-Appointments: 5
-- 09:00 Patient: Alice Brown
-- 10:30 Patient: Bob Green
-(placeholder output from stored procedure)
+doctor_name | appointment_time      | status     | patient_name  | patient_phone
+------------+-----------------------+------------+---------------+--------------
+Dr. Alice   | 2026-08-03 09:00:00   | Confirmed  | Alice Brown   | 123-4567
+Dr. Alice   | 2026-08-03 10:30:00   | Completed  | Bob Green     | 234-5678
+Dr. Alice   | 2026-08-03 11:15:00   | Confirmed  | Carol White   | 345-6789
+Dr. Alice   | 2026-08-03 13:00:00   | Cancelled  | Dan Black     | 456-7890
+Dr. Alice   | 2026-08-03 15:30:00   | Confirmed  | Eve Gray      | 567-8901
+(Stored procedure GetDailyAppointmentReportByDoctor output - placeholder but fully tabulated)

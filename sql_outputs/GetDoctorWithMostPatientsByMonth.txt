@@ -1,3 +1,4 @@
-Month: 2026-07
-Doctor with most patients: Dr. John Doe (42 patients)
-(placeholder output)
+doctor_id | patients_seen
+----------+--------------
+123       | 42
+(Stored procedure GetDoctorWithMostPatientsByMonth output for 2026-07 - placeholder: doctor_id uses internal id)

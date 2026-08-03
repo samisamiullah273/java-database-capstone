@@ -6,4 +6,4 @@
 | Patient            |
 | Prescription       |
 +--------------------+
-(placeholder output) 
+(placeholder output)
