@@ -1,3 +1,6 @@
+# Command used (example):
+# curl -sS -X GET "https://api.example.com/api/doctors?specialty=Neurology&time=2026-08-04" -H "Accept: application/json"
+
 HTTP/1.1 200 OK
 Content-Type: application/json
 [

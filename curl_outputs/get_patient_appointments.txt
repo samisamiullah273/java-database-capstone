@@ -1,3 +1,6 @@
+# Command used (example with bearer token):
+# curl -sS -X GET "https://api.example.com/api/patients/appointments" -H "Accept: application/json" -H "Authorization: Bearer <PATIENT_TOKEN>"
+
 HTTP/1.1 200 OK
 Content-Type: application/json
 [

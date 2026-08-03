@@ -1,6 +1,7 @@
 package com.project.back_end.controllers;
 
 import com.project.back_end.models.Prescription;
+import com.project.back_end.repo.PrescriptionRepository;
 import com.project.back_end.services.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -15,12 +16,15 @@ public class PrescriptionController {
     @Autowired
     private TokenService tokenService;
 
+    @Autowired
+    private PrescriptionRepository prescriptionRepository;
+
     @PostMapping("/api/prescriptions/{token}")
     public ResponseEntity<?> savePrescription(@PathVariable String token, @RequestBody Prescription prescription) {
         if (!tokenService.validateToken(token)) {
             return ResponseEntity.status(401).body("Invalid token");
         }
-        // In a real app, save prescription via service/repository
-        return ResponseEntity.ok(prescription);
+        Prescription saved = prescriptionRepository.save(prescription);
+        return ResponseEntity.ok(saved);
     }
 }
