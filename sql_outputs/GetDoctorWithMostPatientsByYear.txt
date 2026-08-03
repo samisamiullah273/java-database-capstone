@@ -1,0 +1,3 @@
+Year: 2025
+Doctor with most patients: Dr. Sarah Lee (410 patients)
+(placeholder output)

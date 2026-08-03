@@ -1,0 +1,6 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+[
+  {"id":3,"firstName":"Priya","lastName":"Khan","specialty":"Neurology","availableSlots":["2026-08-04T09:00","2026-08-04T10:30"]}
+]
+(placeholder curl output for specialty = Neurology)

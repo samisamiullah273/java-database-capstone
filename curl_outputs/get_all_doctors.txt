@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+[
+  {"id":1,"firstName":"John","lastName":"Doe","specialty":"Cardiology"},
+  {"id":2,"firstName":"Alice","lastName":"Smith","specialty":"Dermatology"}
+]
+(placeholder curl output)

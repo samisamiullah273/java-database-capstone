@@ -1,0 +1,9 @@
++--------------------+
+| Tables_in_clinicdb  |
++--------------------+
+| Appointment        |
+| Doctor             |
+| Patient            |
+| Prescription       |
++--------------------+
+(placeholder output) 

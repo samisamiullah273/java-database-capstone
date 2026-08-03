@@ -1,0 +1,3 @@
+Month: 2026-07
+Doctor with most patients: Dr. John Doe (42 patients)
+(placeholder output)

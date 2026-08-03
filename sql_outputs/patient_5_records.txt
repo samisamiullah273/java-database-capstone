@@ -1,0 +1,8 @@
+id | first_name | last_name | email               | phone     | dob
+---+------------+-----------+---------------------+-----------+----------
+1  | Alice      | Brown     | alice@example.com   | 123-4567  | 1990-01-01
+2  | Bob        | Green     | bob@example.com     | 234-5678  | 1985-05-12
+3  | Carol      | White     | carol@example.com   | 345-6789  | 1979-11-20
+4  | Dan        | Black     | dan@example.com     | 456-7890  | 2000-07-04
+5  | Eve        | Gray      | eve@example.com     | 567-8901  | 1995-03-15
+(placeholder output)

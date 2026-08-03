@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+[
+  {"id":101,"doctor":"Alice Smith","time":"2026-08-03T09:00:00"},
+  {"id":115,"doctor":"John Doe","time":"2026-08-10T11:30:00"}
+]
+(placeholder: used patient credentials to authenticate)
